@@ -12,7 +12,7 @@ void ofApp::update(){
 
 //--------------------------------------------------------------
 void ofApp::draw(){
-	ofBackground(0, 255, 0);
+	ofBackground(255, 255, 0);
 
 }
 
