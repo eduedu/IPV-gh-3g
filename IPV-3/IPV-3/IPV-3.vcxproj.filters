@@ -31,6 +31,9 @@
     <ClCompile Include="D:\of_v0.9.3_vs_release\addons\ofxGui\src\ofxToggle.cpp">
       <Filter>addons\ofxGui\src</Filter>
     </ClCompile>
+    <ClCompile Include="src\objetoX.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="src">
@@ -76,6 +79,9 @@
     </ClInclude>
     <ClInclude Include="D:\of_v0.9.3_vs_release\addons\ofxGui\src\ofxToggle.h">
       <Filter>addons\ofxGui\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\objetoX.h">
+      <Filter>src</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

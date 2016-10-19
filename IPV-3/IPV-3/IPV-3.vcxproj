@@ -188,6 +188,7 @@ D:\of_v0.9.3_vs_release\addons\ofxGui\src;%(AdditionalIncludeDirectories)</Addit
     <ClCompile Include="D:\of_v0.9.3_vs_release\addons\ofxGui\src\ofxSliderGroup.cpp" />
     <ClCompile Include="D:\of_v0.9.3_vs_release\addons\ofxGui\src\ofxToggle.cpp" />
     <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\objetoX.cpp" />
     <ClCompile Include="src\ofApp.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -200,6 +201,7 @@ D:\of_v0.9.3_vs_release\addons\ofxGui\src;%(AdditionalIncludeDirectories)</Addit
     <ClInclude Include="D:\of_v0.9.3_vs_release\addons\ofxGui\src\ofxSlider.h" />
     <ClInclude Include="D:\of_v0.9.3_vs_release\addons\ofxGui\src\ofxSliderGroup.h" />
     <ClInclude Include="D:\of_v0.9.3_vs_release\addons\ofxGui\src\ofxToggle.h" />
+    <ClInclude Include="src\objetoX.h" />
     <ClInclude Include="src\ofApp.h" />
   </ItemGroup>
   <ItemGroup>

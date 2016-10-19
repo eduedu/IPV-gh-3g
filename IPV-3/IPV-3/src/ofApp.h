@@ -1,6 +1,7 @@
 #pragma once
 
 #include "ofMain.h"
+#include "objetoX.h"
 
 class ofApp : public ofBaseApp{
 
@@ -8,6 +9,7 @@ class ofApp : public ofBaseApp{
 		void setup();
 		void update();
 		void draw();
+
 
 		void keyPressed(int key);
 		void keyReleased(int key);
@@ -20,5 +22,10 @@ class ofApp : public ofBaseApp{
 		void windowResized(int w, int h);
 		void dragEvent(ofDragInfo dragInfo);
 		void gotMessage(ofMessage msg);
+
+		void createParticle();
+		ofImage img;
+
+		vector<objetoX> particles;
 		
 };
