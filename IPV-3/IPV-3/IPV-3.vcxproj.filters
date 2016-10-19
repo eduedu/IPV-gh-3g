@@ -34,6 +34,9 @@
     <ClCompile Include="src\objetoX.cpp">
       <Filter>src</Filter>
     </ClCompile>
+    <ClCompile Include="src\misFunciones.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="src">
@@ -81,6 +84,9 @@
       <Filter>addons\ofxGui\src</Filter>
     </ClInclude>
     <ClInclude Include="src\objetoX.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\misFunciones.h">
       <Filter>src</Filter>
     </ClInclude>
   </ItemGroup>

@@ -2,6 +2,7 @@
 
 #include "ofMain.h"
 #include "objetoX.h"
+#include "ofxGui.h"
 
 class ofApp : public ofBaseApp{
 
@@ -23,9 +24,18 @@ class ofApp : public ofBaseApp{
 		void dragEvent(ofDragInfo dragInfo);
 		void gotMessage(ofMessage msg);
 
-		void createParticle();
-		ofImage img;
+		
+		ofImage gImAzulTop;
+		ofImage gImAzulCenter;
+		ofImage gImAzulBottom;
 
-		vector<objetoX> particles;
+//		vector<objetoX> particles;
+		ofxPanel gui;
+		ofxFloatSlider objX;
+		ofxFloatSlider objY;
+		ofxFloatSlider objW;
+		ofxFloatSlider objH;
+		ofxFloatSlider objHMedio;
+
 		
 };

@@ -1,21 +1,27 @@
 #include "objetoX.h"
 
-void objetoX::setup() {
-	vel.x = 2 * ofRandomf();
-	vel.y = 2 * ofRandomf();
-	angle = ofRandomf()*TWO_PI;
-	age = 0;
+void objetoX::setup(ofImage _imT, ofImage _imM, ofImage _imB, float  _x, float _y, float _w, float _h, float _hMedio) {
+	x = _x;
+	y = _y;
+	w = _w;
+	h = _h;
+	imT = _imT;
+	imM = _imM;
+	imB = _imB;
+	hMedio = _hMedio;
+	ajuste =(h* 0.02);
 }
 
 void objetoX::draw() {
-	ofSetColor(color, ofMap(age, 0, 20, 255, 0, true));
-	ofLine(oldpos, pos);
+	imB.draw(x, y + h / 2 + hMedio-ajuste, w, h / 2);
+	imM.draw(x, y + h / 2 - ajuste, w, hMedio);
+	imT.draw(x, y, w, h);
 }
 
-void objetoX::update() {
-	angle += ofSignedNoise(pos.x, pos.y)*TWO_PI;
-	vel.rotate(angle);
-	oldpos = pos;
-	pos += vel;
-	age++;
+void objetoX::update(float  _x, float _y, float _w, float _h, float _hMedio) {
+	x = _x;
+	y = _y;
+	w = _w;
+	h = _h;
+	hMedio = _hMedio;
 }
