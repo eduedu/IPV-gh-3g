@@ -13,9 +13,13 @@ void objetoX::setup(ofImage _imT, ofImage _imM, ofImage _imB, float  _x, float _
 }
 
 void objetoX::draw() {
-	imB.draw(x, y + h / 2 + hMedio-ajuste, w, h / 2);
-	imM.draw(x, y + h / 2 - ajuste, w, hMedio);
-	imT.draw(x, y, w, h);
+	//imB.draw(x, y + h / 2 + hMedio-ajuste, w, h / 2);
+	//imM.draw(x, y + h / 2 - ajuste, w, hMedio);
+	//imT.draw(x, y, w, h);
+
+	imB.draw(x, y + h / 2 - ajuste, w, h / 2);
+	imM.draw(x, y + h / 2-hMedio - ajuste, w, hMedio);
+	imT.draw(x, y-hMedio, w, h);
 }
 
 void objetoX::update(float  _x, float _y, float _w, float _h, float _hMedio) {
