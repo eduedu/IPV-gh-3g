@@ -12,7 +12,9 @@ void ofApp::update(){
 
 //--------------------------------------------------------------
 void ofApp::draw(){
-	ofBackground(255, 255, 0);
+	ofBackground(255, 100, 0);
+	ofSetColor(255, 0, 0);
+	ofDrawRectangle(0, 0, 100, 100);
 
 }
 
