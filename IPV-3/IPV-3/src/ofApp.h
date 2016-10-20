@@ -29,17 +29,37 @@ class ofApp : public ofBaseApp{
 		ofImage gImAzulTop;
 		ofImage gImAzulCenter;
 		ofImage gImAzulBottom;
+		ofImage gImVerdeTop;
+		ofImage gImVerdeCenter;
+		ofImage gImVerdeBottom;
 
 //		vector<objetoX> particles;
 		ofxPanel gui;
-		ofxFloatSlider objX;
-		ofxFloatSlider objY;
+		ofxGuiGroup particular;
+		ofxGuiGroup grupo;
+		ofxGuiGroup verde;
+		ofxGuiGroup azul;
+		ofxGuiGroup global;
+		ofxFloatSlider globalScale;
+		ofxFloatSlider globalX;
+		ofxFloatSlider globalY;
+
 		ofxFloatSlider objW;
 		ofxFloatSlider objH;
 		ofxFloatSlider objHMedio;
 		ofxFloatSlider objSeparacionX;
 		ofxFloatSlider objSeparacionY;
-		ofxIntSlider objCantidad;
+		ofxIntSlider objCantidadX;
+		ofxIntSlider objCantidadY;
+
+		ofxFloatSlider objX1;
+		ofxFloatSlider objY1;
+		ofxIntSlider objCurva1;
+		ofxFloatSlider objX2;
+		ofxFloatSlider objY2;
+		ofxIntSlider objCurva2;
+
+		ofxToggle verFondo;
 
 		void exit();
 		//int mCantidadDeObjetos;

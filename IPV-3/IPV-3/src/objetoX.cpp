@@ -16,10 +16,14 @@ void objetoX::draw() {
 	//imB.draw(x, y + h / 2 + hMedio-ajuste, w, h / 2);
 	//imM.draw(x, y + h / 2 - ajuste, w, hMedio);
 	//imT.draw(x, y, w, h);
-
+	
 	imB.draw(x, y + h / 2 - ajuste, w, h / 2);
 	imM.draw(x, y + h / 2-hMedio - ajuste, w, hMedio);
 	imT.draw(x, y-hMedio, w, h);
+
+	//ofDrawBitmapString(texto, x, y);
+	//ofDrawBitmapString(ofToString(y), x, y);
+	//cout << x << "-" << y << endl;
 }
 
 void objetoX::update(float  _x, float _y, float _w, float _h, float _hMedio) {
