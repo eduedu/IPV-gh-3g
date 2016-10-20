@@ -24,6 +24,7 @@ class ofApp : public ofBaseApp{
 		void dragEvent(ofDragInfo dragInfo);
 		void gotMessage(ofMessage msg);
 
+
 		
 		ofImage gImAzulTop;
 		ofImage gImAzulCenter;
@@ -36,6 +37,11 @@ class ofApp : public ofBaseApp{
 		ofxFloatSlider objW;
 		ofxFloatSlider objH;
 		ofxFloatSlider objHMedio;
+		ofxFloatSlider objSeparacionX;
+		ofxFloatSlider objSeparacionY;
+		ofxIntSlider objCantidad;
 
-		
+		void exit();
+		//int mCantidadDeObjetos;
 };
+
